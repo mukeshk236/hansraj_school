@@ -1,0 +1,24 @@
+/*Global CSS*/
+body{ margin:0px; padding:0px; background:#fff; font-family:Arial, Helvetica, sans-serif; font-size:12px; }
+h1, h2, h3, h4, h5, h6{ margin:0px; padding:0px;}
+
+.index {background:#222222 url(../images/bodybg.jpg) top center repeat-x!important;}
+
+h1{ margin:0px; padding:0px; font-size:51px; color:#336699; line-height:normal;}
+h2{ margin:0px; padding:0px; font-size:18px; color:#fff; font-weight:normal; line-height:normal;}
+ h3{margin:0px; padding:0px; font-size:16px; color:#333333; line-height:normal;}
+ h4{margin:0px; padding:0px; font-family:Cambria; font-size:18px; color:#fff; line-height:normal;}
+  h5{ margin:0px; padding:0px; font-family:Cambria; font-size:18px; color:#222; line-height:normal;}
+
+a{ outline:none; border:none; text-decoration:none;}
+a img{border:0px;}
+
+:root.imgbolck{ padding:16px 0 0 20px ; margin:0px; }
+.imgbolck{ padding:4px 0 0 20px ; margin:0px; }
+.img_border{ border:1px solid #c09a1c; margin-right:15px}
+.imagebolck{ padding:0px 0 5px 25px; margin:0px; }
+.bule_color{ color:#0066a6; font-weight:bold;}
+.text-imgblock{ margin:0 20px 0 0 }
+.greed-imgbor{ border:4px solid #474747; margin:0 18px 0 0}
+
+.innerDate{display:inline-block; margin:0px; padding:0px 0 11px; color:#333;}
