@@ -15,9 +15,13 @@ event_choice = (
 	("HAPPY HOLI", "happy holi"),
 )
 category_choice = (
+	("MEMORIES", "memories"),
+	("ACHIEVEMENTS", "achievements"),
+	("SUBPRIMARY", "subprimary"),
 	("PRIMARY", "primary"),
 	("SECONDARY", "secondary"),
 	("SENIOR", "senior"),
+	("NEWS", "news"),
 )
 # Create your models here.
 class notice(models.Model):
@@ -35,7 +39,7 @@ class job_application(models.Model):
 
 class gallery(models.Model):
 	image = models.ImageField(upload_to = "images/gallery/", blank=True) 
-	category = models.CharField(max_length=50,choices= category_choice,default="PRIMARY")
-	event = models.CharField(max_length=50,choices= event_choice,default="NONE")
+	category = models.CharField(max_length=50, choices=category_choice, default="PRIMARY")
+	event = models.CharField(max_length=50, choices=event_choice, default="NONE")
 	description = models.CharField(max_length=500)
 	status = models.CharField(max_length=10,choices= status,default="ACTIVE")
